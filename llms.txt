@@ -1,0 +1,36 @@
+# Gagan Rana — Websites for Local Businesses
+
+> Gagan Rana designs and builds fast, mobile-first websites for local businesses. Based in Manali, Himachal Pradesh, India, serving clients across India and abroad. The signature offer: a free live demo delivered within 6 hours, with payment only if the client loves it. No advance payment for the demo.
+
+## About
+
+- Name: Gagan Rana
+- Service: Custom website design and development for local businesses (cafes, bakeries, shops, restaurants, hotels, and other small businesses).
+- Location: Manali, Himachal Pradesh, India. Serves India and international clients.
+- Contact: WhatsApp (primary) and email gsrs2002@gmail.com
+- Offer: Free demo in 6 hours, pay only if you love it. No advance payment for the demo.
+
+## What clients get
+
+- Custom design built for the specific business (not a template).
+- Mobile-first sites that load in under 2 seconds.
+- WhatsApp ordering and table-booking buttons.
+- Hosting, domain, and unlimited updates handled by Gagan.
+- A simple monthly visitor report.
+- AI-ready sites: readable by ChatGPT and Google AI so AI assistants and agents can recommend the business.
+
+## How it works
+
+1. Message on WhatsApp with details about the business.
+2. Receive a free live demo within 6 hours.
+3. If you love it, the site goes live. No advance payment for the demo.
+
+## Portfolio
+
+- Rana Bakery, Manali (live client work): https://thisisgsrana.github.io/rana-bakery-demo/ — bakery site with WhatsApp ordering, Zomato ordering, and AI-ready setup (llms.txt + menu schema).
+- Sussegado Souza cafe demo, Goa (free demo built in under 6 hours): https://thisisgsrana.github.io/sussegado-souza-demo/ — a Goan cafe with a 150-year house story, full menu, and WhatsApp table booking.
+
+## Contact
+
+- Email: gsrs2002@gmail.com
+- WhatsApp: available on the website's contact buttons.
