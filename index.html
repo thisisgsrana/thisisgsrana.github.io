@@ -177,7 +177,7 @@
   /* Scroll reveal */
   .reveal { opacity: 0; transform: translateY(24px); transition: opacity .7s ease, transform .7s ease; }
   .reveal.in { opacity: 1; transform: none; }
-  .js .reveal { opacity: 0; }
+  .js .reveal:not(.in) { opacity: 0; }
   /* No-JS / fallback: reveal everything after 1.4s so content is never hidden */
   @keyframes forceShow { to { opacity: 1; transform: none; } }
   .reveal { animation: forceShow 0.01s linear 1.4s forwards; }
