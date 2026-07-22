@@ -122,7 +122,8 @@
   .cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 26px; margin-top: 44px; }
   .card { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease; }
   .card:hover { transform: translateY(-4px); border-color: rgba(232,147,90,0.5); box-shadow: 0 24px 50px -24px rgba(0,0,0,0.6); }
-  .mock { position: relative; aspect-ratio: 16 / 10; padding: 22px; display: flex; flex-direction: column; justify-content: space-between; }
+  .mock { position: relative; aspect-ratio: 16 / 10; padding: 22px 22px 0; display: flex; flex-direction: column; gap: 14px; overflow: hidden; }
+  .mock .shot { display: block; width: 100%; flex: 1; min-height: 0; object-fit: cover; object-position: top; border-radius: 10px 10px 0 0; border: 1px solid rgba(255,255,255,0.25); border-bottom: 0; box-shadow: 0 8px 30px rgba(0,0,0,0.35); }
   .mock.bakery { background: linear-gradient(150deg, #6b3f24, #a5673a 60%, #d99b5f); }
   .mock.cafe { background: linear-gradient(150deg, #1f4d43, #2f6f5a 55%, #4f9b6f); }
   .browser-bar { display: flex; align-items: center; gap: 6px; }
@@ -240,11 +241,7 @@
         <a class="card reveal" href="https://thisisgsrana.github.io/rana-bakery-demo/" target="_blank" rel="noopener">
           <div class="mock bakery">
             <div class="browser-bar"><i></i><i></i><i></i><span class="url">rana-bakery-demo</span></div>
-            <div class="mock-body">
-              <div class="m-kicker">Bakery · Manali</div>
-              <div class="m-title">Rana Bakery</div>
-              <div class="mock-tags"><span>WhatsApp order</span><span>Zomato</span><span>AI-ready</span></div>
-            </div>
+            <img class="shot" src="images/rana-bakery-shot.jpg" alt="Rana Bakery website homepage with chocolate cake hero and WhatsApp ordering" loading="lazy">
           </div>
           <div class="card-body">
             <span class="badge client">Live client work</span>
@@ -257,11 +254,7 @@
         <a class="card reveal" href="https://thisisgsrana.github.io/sussegado-souza-demo/" target="_blank" rel="noopener">
           <div class="mock cafe">
             <div class="browser-bar"><i></i><i></i><i></i><span class="url">sussegado-souza-demo</span></div>
-            <div class="mock-body">
-              <div class="m-kicker">Cafe · Goa</div>
-              <div class="m-title">Sussegado Souza</div>
-              <div class="mock-tags"><span>150-year story</span><span>Menu</span><span>Table booking</span></div>
-            </div>
+            <img class="shot" src="images/sussegado-shot.jpg" alt="Cafe Sussegado Souza website homepage with Goan thali hero and WhatsApp table booking" loading="lazy">
           </div>
           <div class="card-body">
             <span class="badge demo">Free demo · under 6 hours</span>
